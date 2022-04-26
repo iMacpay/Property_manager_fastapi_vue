@@ -1,0 +1,4 @@
+final_back：为PC端，使用命令 npm run serve运行
+final_app：为app端，使用命令 npm run serve运行
+final:为fastapi后端，需要提前安装fastapi，pymysql，sqlalcmy等依赖包，使用uvicorn final_back:app --reload运行，pycharm直接启动final_back.py这个文件
+还有就是后要登录的那个地方，user_login表里自己加一个用户名和密码
